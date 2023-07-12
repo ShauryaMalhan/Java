@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr = {1, 56, 3, 6, 5};
         selection(arr);
         System.out.println(Arrays.toString(arr));
     }
