@@ -11,6 +11,11 @@ public class bitmanupilation {
         //IMPORTANT NOTE: left shift by 1 will double the operator and so on or if a << b == a*2^b;
         //Right Shift Operator == >>
         //IMPORTANT NOTE: Right shift by 1 will half the operator and so on or if a >> b == a/2^b;
+        //-ve of a number in binary form:
+        //  1) first bit represent the sign of the number
+        //  2) to calculate -ve of a binary number we calculate two's compliment.
+        //  Range of binary number is from -128 to 127
+        
         int a = 10;
         System.out.println(a << 1);
     }
