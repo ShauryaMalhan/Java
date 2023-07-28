@@ -1,0 +1,19 @@
+package Recursion.Subset_subsequence_string_questions;
+
+import java.util.*;
+
+public class subsequences{
+    public static void main(String[] args) {
+        Subsequences("","abc");
+    }
+    static void Subsequences(String p, String up){
+        if(up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+        char ch = up.charAt(0);
+
+        Subsequences(p + ch, up.substring(1));
+        Subsequences(p, up.substring(1));
+    }
+}
