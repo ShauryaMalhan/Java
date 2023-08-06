@@ -9,6 +9,9 @@ public class main {
         lists.insertFirst(17);
         lists.insertLast(67);
         lists.insert(69, 3);
+        System.out.println(lists.deleteFirst());
+        System.out.println(lists.deletelast());
+        System.out.println(lists.delete(1));
         lists.display();
     }
 }
