@@ -6,6 +6,6 @@ public class main {
         Scanner scanner = new Scanner(System.in);
         Tree_1 tree = new Tree_1();
         tree.populate(scanner);
-        tree.display();
+        tree.prettyDisplay();
     }
 }
